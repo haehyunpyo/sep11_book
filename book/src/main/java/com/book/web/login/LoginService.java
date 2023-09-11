@@ -46,7 +46,7 @@ public class LoginService {
           BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream()));
           StringBuilder sb = new StringBuilder();
           sb.append("grant_type=authorization_code");
-          sb.append("&client_id=3ecca13d973c6d11e752a114a1e14922"); // TODO REST_API_KEY 입력
+          sb.append("&client_id=***REST_API***"); // TODO REST_API_KEY 입력
           sb.append("&redirect_uri=http://localhost/login/kakao"); // TODO 인가코드 받은 redirect_uri 입력
           sb.append("&code=" + code);
           bw.write(sb.toString());
@@ -173,8 +173,8 @@ public class LoginService {
 	          BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream()));
 	          StringBuilder sb = new StringBuilder();
 	          sb.append("grant_type=authorization_code");
-	          sb.append("&client_id=hnntl6BcuuFp5qf4vMAt"); // TODO Client ID 입력
-	          sb.append("&client_secret=S2tSUIOot4"); // TODO Client Secret 입력
+	          sb.append("&client_id=***CLIENT_ID**"); // TODO Client ID 입력
+	          sb.append("&client_secret=***CLIENT_SECRET***"); // TODO Client Secret 입력
 	          sb.append("&code=" + Ncode);
 	          sb.append("&redirect_uri=http://localhost/login/naver"); // TODO 인가코드 받은 redirect_uri 입력
 	          bw.write(sb.toString());
