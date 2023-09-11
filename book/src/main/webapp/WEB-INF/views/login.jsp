@@ -63,14 +63,14 @@
 
 // 카카오로그인
 function kakaoLogin(){
-	location.href="https://kauth.kakao.com/oauth/authorize?client_id=3ecca13d973c6d11e752a114a1e14922&redirect_uri=http://localhost/login/kakao&response_type=code"
-	//window.open("https://kauth.kakao.com/oauth/authorize?client_id=3ecca13d973c6d11e752a114a1e14922&redirect_uri=http://localhost/login&response_type=code", "_blank", "width=500, height=500");
+	location.href="https://kauth.kakao.com/oauth/authorize?client_id=***REST_API***&redirect_uri=http://localhost/login/kakao&response_type=code"
+	//window.open("https://kauth.kakao.com/oauth/authorize?client_id=***REST_API***&redirect_uri=http://localhost/login&response_type=code", "_blank", "width=500, height=500");
 	//opner.document.location.href="http://localhost/"
 }
 
 //네이버로그인
 function naverLogin(){
-	location.href="https://nid.naver.com/oauth2.0/authorize?client_id=hnntl6BcuuFp5qf4vMAt&redirect_uri=http://localhost/login/naver&response_type=code";
+	location.href="https://nid.naver.com/oauth2.0/authorize?client_id=***CLIENT_ID***&redirect_uri=http://localhost/login/naver&response_type=code";
 }
 
 
