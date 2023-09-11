@@ -10,7 +10,7 @@
 <script type="text/javascript">
 
 function kakaoLogout(){
-	location.href="https://kauth.kakao.com/oauth/logout?client_id=3ecca13d973c6d11e752a114a1e14922&logout_redirect_uri=http://localhost/logout/kakao";
+	location.href="https://kauth.kakao.com/oauth/logout?client_id=***REST_API***&logout_redirect_uri=http://localhost/logout/kakao";
 }
 function naverLogout(){
 	let Npopup = window.open("https://nid.naver.com/nidlogin.logout", "_blank", "width=500, height=500");
